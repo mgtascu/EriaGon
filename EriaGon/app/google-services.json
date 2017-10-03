@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1000914316504",
+    "firebase_url": "https://eriagon-172916.firebaseio.com",
+    "project_id": "eriagon-172916",
+    "storage_bucket": "eriagon-172916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000914316504:android:21da656006cf9d8e",
+        "android_client_info": {
+          "package_name": "licenta.mgtascu.eriagon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000914316504-t8109349r8igmespt8hqcme96v6usft2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlo1QHv8aS_TqxXXJ1C8XY52xL80o_rGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

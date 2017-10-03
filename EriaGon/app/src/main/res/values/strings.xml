@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EriaGon</string>
+    <string name="title_activity_map">Map</string>
+
+    <string name="title_activity_log_in">EriaGon</string>
+    <string-array name="map_tpypes">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+        <item>Terrain</item>
+    </string-array>
+
+    <string name="title_activity_help">Help</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

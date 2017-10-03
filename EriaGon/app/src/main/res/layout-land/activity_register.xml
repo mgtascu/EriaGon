@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    tools:context="licenta.mgtascu.eriagon.Register">
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="User Name*"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUserName"
+        android:layout_below="@+id/etUserName"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Password*"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etRePass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etPass1"
+        android:layout_below="@+id/etPass1"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Re-enter Password*"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etRePass1"
+        android:layout_below="@+id/etRePass1"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="E-Mail*"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnRegDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/btn_reg_shape"
+        android:layout_below="@+id/rgGender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/etEmail1"
+        android:layout_alignEnd="@+id/etEmail1">
+
+
+        <RadioButton
+            android:id="@+id/rMal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Male"
+            android:layout_alignBaseline="@+id/rFem"
+            android:layout_alignBottom="@+id/rFem"
+            android:layout_toStartOf="@+id/rFem" />
+
+        <RadioButton
+            android:id="@+id/rFem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/etBday"
+            android:layout_alignTop="@+id/rgGender"
+            android:layout_weight="1"
+            android:text="Female" />
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etPass1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender*:"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/rgGender"
+        android:layout_alignStart="@+id/etEmail1"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="19dp" />
+
+</RelativeLayout>

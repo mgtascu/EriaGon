@@ -1,0 +1,23 @@
+How to use:
+
+First of all, thank you for trying out this app and I hope you make the most of it!
+Because I didn't want to reduce the visibility of the map, I didn't fill the screen wth buttons,
+instead I implemented most of the functions with gestures that I'm going to share with you here.
+
+You can measure an area as large as you want with this app and the procedure is very simple. There
+are a few steps to follow:
+
+1)Place a marker on the map by touching the screen (you can add up to 100 markers);
+2)When you are done with deploying the markers, tap the first one you placed to close the polygon;
+3)After you closed the polygon, it will show on the map as a Red area with a Cyan outline. Tap
+anywhere on the polygon to get it area inside a toast message (in square meters);
+4)When you are done, just long click the map outside of the polygon and it will be cleared;
+5)Start all over again.
+
+Notices:
+- if you long click the last marker you placed, it will be removed and you can go on from there
+(WARNING: do not remove markers from in between, better clear the map);
+- by clicking the marker it will show it's current position in coordinates (Lat, Long);
+- in the top right corner there is a combo box from where you can select the map type you want.
+
+Thank you for reading this!
