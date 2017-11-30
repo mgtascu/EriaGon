@@ -26,14 +26,10 @@
             android:value="@string/google_maps_key"/>
 
         <activity
-            android:name=".MapActivity"
-            android:configChanges="orientation"
-            android:screenOrientation="landscape" />
+            android:name=".MapActivity" />
         <activity
             android:name=".LogIn"
-            android:configChanges="orientation"
             android:label="EriaGon"
-            android:screenOrientation="landscape"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,12 +39,8 @@
         </activity>
         <activity
             android:name=".Register"
-            android:configChanges="orientation"
-            android:screenOrientation="landscape"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".Help"
-            android:configChanges="orientation"
-            android:screenOrientation="landscape">
+        <activity android:name=".Help">
         </activity>
     </application>
 
